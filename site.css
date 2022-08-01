@@ -88,6 +88,10 @@ a.nav-link.active{
   opacity: 0;
   transition: all 0.5s;
 }
+#scroll-top-button :hover{
+  font-size: 28px;
+  transition: all 0.5s;
+}
 
 #scroll-top-button.show{
   opacity: 1;
