@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="site.css"/>
+    <title>Jul - CV en ligne</title>
+  </head>
+  <body class="bg-dark text-light"  data-bs-spy="scroll" data-bs-target="#navbarSite" data-bs-smooth-scroll="true" tabindex="0">
+    <header>
+      <!-- Navbar -->
+      <nav id="navbarSite" class="position-fixed navbar navbar-expand-lg navbar-dark bg-transparent w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <i class="bi bi-code-slash"></i> JC
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#accueil" tabindex="-1" aria-disabled="true">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#competences">Compétences</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="témoignages">Témoignages</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Page d'accueil -->
+      <section id="accueil">
+        <div id="container-fluid">
+          <div class="row row-cols-1" id="firstRowHomePage">
+            <div class="d-flex justify-content-center flex-column text-center" id="text-presentation">
+              <div class="text-bienvenue">Bienvenue !</div>
+              <div class="big-text">Je suis développeur</div>
+              <p class="Description">Je m'appelle Julian , et je suis développeur full stack depuis 2021.</p>
+              <div class="btn-container">
+                <a href="/docs/CV Julian.pdf" target="_blank" class="btn btn-outline-info">Télécharger mon CV</a>
+              </div>
+              <div class="" id="mouseBtn">
+                <a href="#about"><i class="bi bi-mouse-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!--Qui suis-je ?-->
+        <section class="py-5" id="about">
+          <div class="container">
+              <div class="mb-5 row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-5">
+                <div>
+                  <img class="img-thumbnail" src="/img/man.jpg" style="max-width: 100%;">
+                </div>
+                    <div>
+                        <h2>Qui suis-je ?</h2>
+                        <p>Bonjour, je suis <span class="text-primary">Julian</span></p>
+                        <p class="pt-2 pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                          <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          <br>It has survived not only five centuries, but also the leap into electronic
+                        </p>
+                        <div>
+                          <button class="me-2 btn-social-share btn btn-outline-primary"><i class="bi bi-linkedin"></i></button>
+                          <button class="me-2 btn-social-share btn btn-outline-primary"><i class="bi bi-facebook"></i></button>
+                          <button class="me-2 btn-social-share btn btn-outline-primary"><i class="bi bi-twitter"></i></button>
+                          <button class="me-2 btn-social-share btn btn-outline-primary"><i class="bi bi-pinterest"></i></button>
+                        </div>
+                    </div>
+              </div>
+          </div>
+        </section>
+          <!--Mes compétences-->
+          <section class="py-5" id="competences">
+            <div class="container">
+              <div class="mt-5 mb-5 row text-center">
+                <h2>Mes compétences</h2>
+                <p class="text-seconday"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="mt-4 row row-cols-1 row-cols-sm-2 row-cols-md-3 all-competences">
+                <!--Première card-->
+                    <div class="card bg-dark p-3 border-light">
+                      <img src="/img/logoJs.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="card-footer text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  <!--Deuxième card-->
+                    <div class="card bg-dark p-3 border-light">
+                      <img src="/img/sketchup.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Sketchup</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="card-footer text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  <!--Troisième card-->
+                    <div class="card bg-dark p-3 border-light">
+                      <img src="/img/logoJs.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="card-footer text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  <!--Quatrième card-->
+                    <div class="card bg-dark p-3 border-light">
+                      <img src="/img/logoJs.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="card-footer text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  <!--Cinquième card-->
+                    <div class="card bg-dark p-3 border-light">
+                      <img src="/img/css.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="card-footer text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  <!--Sixième card-->
+                    <div class="card bg-dark p-3 border-light">
+                      <img src="/img/logoJs.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="card-footer text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                </div>  
+              </div>
+            </div>
+          </section>
+          <!--Freelancer-->
+          <section class="py-5 text-center" id="available">
+            <h2 class="pb-3"> Je suis disponible en tant que freelance</h2>
+            <p>
+              <button class="btn btn-primary">Hire me </button>
+            </p>
+          </section>
+         
+          <!-- Mes réalisations-->
+          <section class="py-5 text-center" id="réalisation">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+                <div class="réalisation-container p-3">
+                  <img class="réalisation-img" id ="img-projet1" src="/projets/projet1.PNG">
+                  <p class="réalisation-text py-2"><a href="https://julian13330.github.io/Les-amis-de-Gohan/">Association adoption animaux</a></p>
+                </div>
+                <div class="réalisation-container p-3">
+                  <img class="réalisation-img" id ="img-projet2" src="/projets/projet2.PNG">
+                  <p class="réalisation-text py-2"><a id="lien" href="https://julian13330.github.io/Jeux-du-de/">Jeux en javascript</a></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--Button fin de page-->
+          <a class="btn btn-primary" href="#accueil" id="scroll-top-button">
+            <i class="bi bi-arrow-up-square-fill"></i>
+          </a>
+      </main>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
