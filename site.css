@@ -114,4 +114,23 @@ a.nav-link.active{
   text-decoration: underline;
   font-size: 18px;
 }
+.contact-container .contact-header i{
+  font-size: 45px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-container .contact-heander h3{
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#contact{
+  background-color: rgba(110, 110, 110, 0.164);
+}
+.contact-container .contact-body a{
+  text-decoration: none;
+}
+
+
 
