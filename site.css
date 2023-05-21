@@ -101,11 +101,18 @@ a.nav-link.active{
 #réalisation img.réalisation-img{
   max-width: 100%;
 }
-#img-projet1{
+#img-projet{
   border-radius: 10px 10px 10px 10px;
+  -moz-transition: opacity 0.9s;
+  -webkit-transition: opacity 0.9s;
+  -o-transition: opacity 0.9s;
+  transition: opacity 0.9s;
+  vertical-align:top;
+  opacity: 0.6;
 }
-#img-projet2{
-  border-radius: 10px 10px 10px 10px;
+
+#img-projet:hover{
+  opacity: 0.9;
 }
 
 #réalisation a{

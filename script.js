@@ -23,9 +23,9 @@ let typewriter = new Typewriter(typeWriter, {
   loop: true
 });
 
-typewriter.typeString('Freelance')
+typewriter.typeString('<span style="color: #FF9958;">Symfony</span>')
   .pauseFor(1500)
-  .deleteChars(9)
+  .deleteChars(7)
   .typeString('<span style="color: #FF5722;">HTML 5</span>')
   .pauseFor(1000)
   .deleteChars(6)
@@ -38,6 +38,13 @@ typewriter.typeString('Freelance')
   .typeString('<span style="color: #777BB3;">Php</span>')
   .pauseFor(1000)
   .deleteChars(3)
-  .typeString('<span style="color: #fff;">Symfony</span>')
+  .typeString('<span style="color: #40E0D0;">React</span>')
   .pauseFor(1000)
+  .deleteChars(5)
+  .typeString('<span style="color: #A9A9A9;">WordPress</span>')
+  .pauseFor(1000)
+  .deleteChars(9)
+  .typeString('<span style="color: #EE82EE;">Figma</span>')
+  .pauseFor(1000)
+  .deleteChars(5)
   .start();
